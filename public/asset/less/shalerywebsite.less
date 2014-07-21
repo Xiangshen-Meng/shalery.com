@@ -1,0 +1,62 @@
+@import "variables.less";
+@import "mixins.less";
+
+.welcome-banner {
+	min-height: 300px;
+	background-color: #666;
+}
+
+.title-bar {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.padding-right {
+	padding-left: 10px;
+}
+
+.home-content {
+	.events-list {
+		padding-top: 20px;
+
+		.event-element {
+			min-height: 120px;
+
+			.event-title {
+				font-size: 15px;
+				font-weight: 600;
+				padding-bottom: 15px;
+			}
+
+			.event-description {
+			}
+
+			.event-place {
+				padding-bottom: 15px;
+				color: @gray-light;
+			}
+		}
+	}
+
+	.date-md {
+		text-align: center;
+		.date-wrapper {
+			min-width: 50px;
+			max-width: 60px;
+			.date-m {
+				display: block;
+				font-size: 15px;
+				color: white;
+				background: @brand-green;
+			}
+			.date-d {
+				display: block;
+				font-size: 25px;
+				background: @brand-gray;
+				border:	1px solid @brand-gray-dark;
+			}
+		}
+	}
+}

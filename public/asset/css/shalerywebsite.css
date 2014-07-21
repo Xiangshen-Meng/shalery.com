@@ -1,0 +1,47 @@
+.welcome-banner {
+  min-height: 300px;
+  background-color: #666;
+}
+.title-bar {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.padding-right {
+  padding-left: 10px;
+}
+.home-content .events-list {
+  padding-top: 20px;
+}
+.home-content .events-list .event-element {
+  min-height: 120px;
+}
+.home-content .events-list .event-element .event-title {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.home-content .events-list .event-element .event-place {
+  padding-bottom: 15px;
+  color: #777777;
+}
+.home-content .date-md {
+  text-align: center;
+}
+.home-content .date-md .date-wrapper {
+  min-width: 50px;
+  max-width: 60px;
+}
+.home-content .date-md .date-wrapper .date-m {
+  display: block;
+  font-size: 15px;
+  color: white;
+  background: #55a79a;
+}
+.home-content .date-md .date-wrapper .date-d {
+  display: block;
+  font-size: 25px;
+  background: #f5f5f5;
+  border: 1px solid #e4e4e4;
+}
